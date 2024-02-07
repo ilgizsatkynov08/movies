@@ -1,0 +1,57 @@
+.home {
+    .house{
+        margin: 0 0 5pc 0;
+    }
+    .circle {
+        width: 1440px;
+        height: 500px;
+        position: relative;
+        background: rgba(9, 9, 88, 0.904);    
+    }
+    .welcome{
+        position: absolute;
+        top: 10pc;
+        margin-left: 5pc;
+        h1{
+            color: #fff;
+            font-size: 3em;
+            font-weight: 700;
+            line-height: 1;
+        }
+        p{
+            color: white;
+            font-size: 2em;
+    font-weight: 600;
+    margin: 1pc 0;
+            
+        }
+        .type{
+            input{
+                width: 1200px;
+                height: 50px;
+                border-radius: 20px;
+                border: none;
+                position: relative;
+                padding: 0 20px;
+            }
+            button {
+                width: 120px;
+                height: 50px;
+                border-radius: 20px;
+                border: none;
+                background: LightBlue;
+                position: absolute;
+                right: 0;
+            }
+        }
+    }
+    .joh{
+        display: flex;
+
+
+        img{
+width: 250px;
+border-radius: 15px;
+        }
+    }
+}

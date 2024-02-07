@@ -1,0 +1,89 @@
+#detal {
+    margin: 2pc 0;
+    padding: 5pc 0;
+
+    .detal{
+        display: flex;
+        align-items: center;
+        gap: 2pc;
+        .bg{
+            width: 300px;
+            height: 450px;
+            border-radius: 20px;
+            position: absolute;
+            z-index: 99;
+            &:hover {
+                background: rgba(61, 60, 60, 0.616);
+            }
+        }
+  .ra{
+    display: flex;
+
+  }
+        .image{
+            border-radius: 20px;
+            position: relative;
+
+          
+        }
+        .detalreb{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            gap: 1pc;
+            .doit{
+                display: flex;
+                align-items:    center ;
+                gap: 3pc;
+            }
+            .icons a{
+                color: white;
+                padding: 1pc;
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                background: black;
+                font-size: 17px;
+                margin-left: 1pc;
+            }
+            .math{
+                width: 70px;
+                height: 70px;
+                font-size: 25px;
+                background: red;
+                border-radius:150px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: transform .2s;
+                background: rgb(39, 37, 37);
+                border: 6px solid rgb(49, 190, 49);
+    transform: scale(1);
+            }
+            .data{
+                display: flex;
+                gap: 2pc;
+             h3{
+                font-weight: 400;
+                font-size: 15px
+             }
+                .a1{
+                    display: flex;
+                }
+            }
+            h1{
+                font-weight: 700;
+            }
+            h6{
+                font-size: 1.1em;
+                font-weight: 400;
+                font-style: italic;
+                opacity: .7;
+            }
+            p{
+                font-size: 1em;
+    margin: 0 0 16px;
+            }
+        }
+    }
+}

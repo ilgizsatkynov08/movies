@@ -1,0 +1,43 @@
+#header {
+  padding: 2pc 0;
+  background: #060e44;
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &--nav {
+      display: flex;
+      gap: 7pc;
+
+      a {
+        color: rgb(255, 255, 255);
+        font-size: 19px;
+        font-weight: 600;
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      }
+    }
+    &--search {
+      input {
+        width: 290px;
+        height: 40px;
+        border-radius: 10px;
+        padding-left: 2pc;
+      }
+      button {
+        width: 110px;
+        height: 40px;
+        color: rgb(255, 255, 255);
+        border-radius: 10px;
+        font-size: 17px;
+        border: none;
+        background: rgba(145, 138, 138, 0.712);
+        margin-left: 1pc;
+      }
+    }
+  }
+  .logo {
+    width: 200px;
+  }
+}

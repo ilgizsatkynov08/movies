@@ -1,0 +1,9 @@
+#popular {
+    padding: 3pc 0;
+    .popular {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 5.30pc;
+    }
+}

@@ -1,0 +1,53 @@
+#boi {
+  margin: 4pc 0;
+  .boi {
+    display: flex;
+    justify-content: space-around;
+    .bio-style {
+      margin-left: 2pc;
+      p {
+        line-height: 1.5;
+        span {
+          color: blue;
+          font-weight: 500;
+          font-size: 20px;
+        }
+      }
+      h2 {
+        font-weight: 900;
+        font-size: 35px;
+        color: #000;
+      }
+      h1 {
+        font-size: 23px;
+        font-weight: 500;
+        margin: 2pc 0 10px 0;
+      }
+      h3 {
+        font-weight: 400;
+        margin: 0 0 1pc 0;
+      }
+    }
+    .bio-img {
+      img {
+        border-radius: 10px;
+      }
+      h1 {
+        font-weight: 400;
+        font-size: 1.3em;
+        margin-bottom: 8px;
+        margin-top: 2pc;
+      }
+      h3 {
+        font-weight: 500;
+        font-size: 20px;
+        margin-top: 2pc;
+      }
+      h2 {
+        font-size: 15px;
+        font-weight: 400;
+      }
+    }
+  }
+}
+

@@ -1,0 +1,52 @@
+.movieCard{
+    border-radius: var(--imageBorderRadius);
+    overflow: hidden;
+    margin-top: 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+    border: 1px solid rgba(var(--lightGrey),1);
+    width: 290px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 10px 0;
+//     -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+// -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+// box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+text-align: center;
+box-shadow: 0 2px 8px rgba(0,0,0,.1);
+    border: 1px solid rgba(0,0,0,.1);
+    background-color: #fff;
+.type{
+    width: 240px;
+}
+.era{
+    font-size: 15px;
+    font-weight: 400;
+}
+position: relative;
+h6{
+    position: absolute;
+    right: 40px;
+    top: 33px;
+    width: 25px;
+    height: 25px;
+    background: rgba(104, 102, 102, 0.555);
+    border-radius: 15px;
+    color: rgba(255, 255, 255, 0.596);
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+   
+}
+h5{
+    margin-top: 10px;
+    color: #00000099;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+}
+}

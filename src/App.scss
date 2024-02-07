@@ -1,0 +1,22 @@
+@import "../src/Styles/Header.scss";
+@import "../src/Styles/Home.scss";
+@import"../src/Styles/Popular.scss";
+@import "../src/Styles/MovieCard.scss";
+@import "../src/Styles/MovieDetalis.scss";
+@import "../src/Styles/Actor.scss";
+@import "../src/Styles/Video.scss";
+@import "../src//Styles//Biografy.scss";
+@import "../src/Styles/Scrol.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+a{
+    text-decoration: none;
+}
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}

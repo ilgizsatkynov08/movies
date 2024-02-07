@@ -1,0 +1,26 @@
+.actorr{
+    margin: 5pc 0;
+    .actors{
+        display: flex;
+        overflow-y: scroll;
+        gap: 5pc;
+        margin: 2pc 0;
+        
+        
+        .actor{
+            box-shadow: 0 2px 8px rgba(0,0,0,.1);
+            padding: 5px 0 20px 0;
+            img{
+                width: 200px;
+                border-radius: 15px;
+                margin: 10px 4px 10px 10px;
+       
+            }
+            h1{
+                font-size: 17px;
+                font-weight: 500;
+                text-align: center;
+            }
+        }
+    }
+}
